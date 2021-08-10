@@ -3,9 +3,10 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import login from './login.vue'
+import Vue from 'vue';
+import i18n from '@/plugins/i18n';
 
 export default Vue.extend({
-  components: { login },})
+  components: {i18n},
+});
 </script>

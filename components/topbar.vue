@@ -1,22 +1,22 @@
 <template>
-    <div class="topbar d-flex">
-        <a href="#news" class="d-flex justify-content-start">
+    <div class="topbar">
+        <a href="#news" class="align-left">
             <font-awesome-icon :icon="['fas', 'bars']"/>
         </a>
-        <a href="#about" class="d-flex justify-content-end">
+        <a href="#about" class="align-right">
             <font-awesome-icon :icon="['fas', 'user']"/>
         </a>
-    </div>  
+    </div>
 </template>
 
 <script>
-import { defineComponent } from '@vue/composition-api'
+import {defineComponent} from '@vue/composition-api';
 
 export default defineComponent({
-    setup() {
-        
-    },
-})
+  setup() {
+
+  },
+});
 </script>
 
 <style scoped>
@@ -42,5 +42,15 @@ export default defineComponent({
     .topbar a.active {
         background-color: #04AA6D;
         color: white;
+    }
+
+    .align-left {
+        float: left !important;
+        text-align: left !important;
+    }
+
+    .align-right {
+        float: right !important;
+        text-align: right !important;
     }
 </style>

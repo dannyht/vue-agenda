@@ -17,10 +17,33 @@
     "bootstrap": "^4.6.0",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
-    "nuxt-fontawesome": "^0.4.0"
+    "nuxt-fontawesome": "^0.4.0",
+    "vue-i18n": "^8.25.0"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.7",
-    "@nuxt/typescript-build": "^2.1.0"
-  }
+    "@nuxt/typescript-build": "^2.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-vue": "^7.16.0"
+  },
+  "description": "## Build Setup",
+  "main": "nuxt.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannyht/vue-agenda.git"
+  },
+  "keywords": [
+    "vue",
+    "agenda",
+    "nuxt"
+  ],
+  "author": "Danut Hostiuc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannyht/vue-agenda/issues"
+  },
+  "homepage": "https://github.com/dannyht/vue-agenda#readme"
 }
